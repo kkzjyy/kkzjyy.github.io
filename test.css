@@ -1,0 +1,560 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.dh {
+    position: sticky;
+    height: 50px;
+    top: 10px;
+    border-radius: 10px;
+    background-color: orange;
+    opacity: 0.8;
+
+}
+
+.wangz li {
+    float: left;
+    font-size: 25px;
+    display: block;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 80px;
+
+}
+
+.introduction a {
+
+    color: white;
+}
+
+.introduction {
+    position: sticky;
+}
+
+.tupian {
+    left: -5px;
+    top: 40px;
+    height: 0px;
+    width: 160px;
+    position: absolute;
+    border-radius: 8px;
+    height: 0px;
+    transition: 0.7s;
+    overflow: hidden;
+    text-align: center;
+}
+
+.tupian p {
+    font-size: 15px;
+    line-height: 10px;
+    margin-top: -10px;
+}
+
+.introduction a:hover {
+    transition: 0.5s;
+    background-color: #ED6F00;
+    color: grey;
+
+}
+
+.introduction:hover .tupian {
+    height: 300px;
+    background-color: white;
+    border: 5px solid orange;
+
+}
+
+.Ab a {
+    color: white;
+    position: sticky;
+}
+
+.Ab a:hover {
+    transition: 0.5s;
+    background-color: #ED6F00;
+    color: grey;
+}
+
+
+
+.Nt a {
+    position: sticky;
+    color: grey;
+}
+
+.Nt a:hover {
+    transition: 0.5s;
+    background-color: #ED6F00;
+    color: white;
+
+}
+
+.CU a {
+    position: sticky;
+    color: white;
+}
+
+.CU a:hover {
+    transition: 0.5s;
+    background-color: #ED6F00;
+    color: grey;
+}
+
+.QA a {
+    position: sticky;
+    color: white;
+}
+
+.QA a:hover {
+    transition: 0.5s;
+    background-color: #ED6F00;
+    color: grey;
+}
+
+
+.homepage img {
+    width: 100%;
+}
+
+.geek {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.geek img {
+    width: 50%;
+    transition: 0.8s;
+}
+
+.geek img:hover {
+    transform: scale(1.5);
+}
+
+
+h1 {
+    font-size: 40px;
+    color: rgb(0, 119, 255);
+    width: 20%;
+    margin: -10% auto 0;
+    display: block;
+}
+
+h1:hover {
+
+    color: grey;
+}
+
+.first {
+    width: 75%;
+    margin: 150px auto;
+    border: 5px solid grey;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.first h2 {
+    font-size: 60px;
+    margin-left: 40px;
+}
+
+.first h3 {
+    font-size: 40px;
+    margin-left: 40px;
+    color: rgb(0, 119, 255);
+}
+
+.first p {
+    font-size: 20px;
+    margin: 10px 0px 20px 10px
+}
+
+
+.first:hover {
+    transform: scale(1.1);
+}
+
+.first img {
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.first img:hover {
+    transition: 0.5s;
+    transform: rotate(-0.125turn)
+}
+
+.second {
+    width: 75%;
+    margin: 150px auto;
+    border: 5px solid grey;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.second img {
+    border-radius: 30px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+.second img:hover {
+    transition: 0.5s;
+    transform: rotate(0.125turn)
+}
+
+.second:hover {
+    transform: scale(1.1);
+}
+
+.second h2 {
+    font-size: 60px;
+    margin-left: 33%;
+
+}
+
+.second h3 {
+    font-size: 40px;
+    margin-left: 2%;
+    color: purple;
+}
+
+.second p {
+    font-size: 20px;
+    margin: 10px 0px 25px 5px
+}
+
+.third {
+    width: 75%;
+    margin: 150px auto;
+    border: 5px solid grey;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.third h2 {
+    font-size: 60px;
+    margin-left: 50px;
+}
+
+.third h3 {
+    font-size: 40px;
+    margin-left: 40px;
+    color: rgb(0, 255, 195);
+}
+
+.third p {
+    font-size: 20px;
+    margin: 10px 0px 60px 10px
+}
+
+
+.third:hover {
+    transform: scale(1.1);
+}
+
+.third img {
+    float: right;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+
+.third img:hover {
+    transition: 0.5s;
+    transform: rotate(-0.125turn)
+}
+
+.forth {
+    width: 75%;
+    margin: 150px auto;
+    border: 5px solid grey;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.forth img {
+    border-radius: 30px;
+    float: left;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+.forth img:hover {
+    transition: 0.5s;
+    transform: rotate(0.125turn)
+}
+
+.forth:hover {
+    transform: scale(1.1);
+}
+
+.forth h2 {
+    font-size: 60px;
+    margin-left: 33%
+}
+
+.forth h3 {
+    font-size: 40px;
+    margin-left: 2%;
+    color: pink;
+}
+
+.forth p {
+    font-size: 20px;
+    margin: 10px 0px 55px 5px
+}
+
+
+.question {
+    width: 90%;
+    margin: 150px auto;
+    border: 5px solid grey;
+    border-radius: 40px;
+    transition: 0.5s;
+    background-color: whitesmoke;
+
+}
+
+.question h2 {
+    font-size: 70px;
+    color: grey;
+    text-align: center;
+}
+
+.Speech:hover {
+    transform: scale(1.2);
+}
+
+.Diversity:hover {
+    transform: scale(1.2);
+}
+
+.Time:hover {
+    transform: scale(1.2);
+}
+
+.Speech,
+.Diversity,
+.Time {
+    float: left;
+    width: 25%;
+    margin: 5% 3%;
+    border: 5px solid purple;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 3%;
+    padding-bottom: 3%
+}
+
+
+
+.question p {
+    padding: 5% 5% 0;
+    font-size: 20px;
+}
+
+.ul {
+    position: absolute;
+    margin-top: -45%;
+}
+
+.ur {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -45%;
+}
+
+.dr {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 15%;
+}
+
+.butterfly {
+    margin-left: 55%;
+    margin-bottom: 5%;
+    transition: 0.5s;
+}
+
+.butterfly:hover {
+    transform: scale(1.05);
+}
+
+.contact {
+    width: 90%;
+    margin: 150px auto;
+    border: 7px solid green;
+    border-radius: 40px;
+    transition: 0.5s;
+    background-color: whitesmoke;
+}
+
+.contact h2 {
+    font-size: 70px;
+    color: rgb(31, 77, 31);
+    text-align: center;
+}
+
+.contact p {
+    font-size: 23px;
+    width: 50%;
+    margin: 0 auto 4%;
+
+
+}
+
+
+
+
+.hudong a {
+    font-size: 30px;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 20px;
+    margin-left: 8%;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.hudong a:hover {
+    color: yellowgreen;
+}
+
+.hudong {
+    margin: 8% 19%;
+}
+
+.zhushi {
+    color: rgba(8, 7, 7, 0.195);
+}
+
+
+.l-tree {
+    position: absolute;
+    margin-top: -38%;
+    margin-left: 0;
+}
+
+.r-tree {
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -37%;
+}
+
+.leave {
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 20%;
+}
+
+.kunchong {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: -2%;
+}
+
+.bianselong {
+    position: absolute;
+    margin-top: -1%;
+    margin-left: 58%;
+}
+
+/* 设置问答框架 */
+.QAask {
+    width: 90%;
+    margin: 150px auto;
+    border: 7px solid rgb(0, 119, 255);
+    border-radius: 40px;
+    background-color: whitesmoke;
+    background-image: url(./images/background_QA.png);
+    background-repeat: no-repeat;
+}
+
+.QAask h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 10%;
+}
+
+.QAask li {
+    display: block;
+    margin: 2% 25%;
+}
+
+.QAask p {
+    font-size: 20px;
+    width: auto;
+    color: rgb(136, 16, 16);
+}
+
+.qa a {
+    transition: 0.6s;
+    color: black;
+    font-size: 25px;
+    display: block;
+}
+
+.qa a:hover {
+    transform: scale(1.1);
+    color: grey;
+}
+
+
+.end {
+    height: 100px;
+    background-color: whitesmoke;
+    border-top: 1px solid grey;
+    text-align: center;
+
+}
+
+.return {
+    position: sticky;
+    height: 50px;
+    width: 50px;
+    left: 96%;
+    bottom: 80px;
+    overflow: hidden;
+}
+
+.return div {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    display: block;
+    background-color: whitesmoke;
+    border: 1px black solid;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+    transition: 0.8s;
+}
+
+.return1 {
+    top: 0px;
+}
+
+.return2 {
+    top: -50px;
+}
+
+.return:hover .return1 {
+    top: -50px;
+}
+
+.return:hover .return2 {
+    top: 0px;
+}
+
+.return2 a:hover {
+    color: aqua;
+}
