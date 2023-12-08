@@ -1,3 +1,4 @@
+/* 删除下划线 */
 ul {
     list-style: none;
 }
@@ -6,7 +7,7 @@ a {
     text-decoration: none;
 }
 
-
+/* 导航栏设置 */
 .dh {
     position: sticky;
     height: 50px;
@@ -37,6 +38,7 @@ a {
     position: sticky;
 }
 
+/* 图片设置 */
 .tupian {
     left: -5px;
     top: 40px;
@@ -117,7 +119,7 @@ a {
     color: grey;
 }
 
-
+/* 背景和图标 */
 .homepage img {
     width: 100%;
 }
@@ -137,7 +139,7 @@ a {
     transform: scale(1.5);
 }
 
-
+/* 介绍板块 */
 h1 {
     font-size: 40px;
     color: rgb(0, 119, 255);
@@ -312,7 +314,7 @@ h1:hover {
     margin: 10px 0px 55px 5px
 }
 
-
+/* 基本问答板块 */
 .question {
     width: 90%;
     margin: 150px auto;
@@ -341,6 +343,7 @@ h1:hover {
     transform: scale(1.2);
 }
 
+/* 三个介绍的布局 */
 .Speech,
 .Diversity,
 .Time {
@@ -362,6 +365,7 @@ h1:hover {
     font-size: 20px;
 }
 
+/* 布局图片设置 */
 .ul {
     position: absolute;
     margin-top: -45%;
@@ -385,6 +389,7 @@ h1:hover {
     transition: 0.5s;
 }
 
+/* 触碰蝴蝶设置 */
 .butterfly:hover {
     transform: scale(1.05);
 }
@@ -414,7 +419,7 @@ h1:hover {
 
 
 
-
+/* 邮箱和qq群设置部分 */
 .hudong a {
     font-size: 30px;
     background-color: green;
@@ -437,7 +442,8 @@ h1:hover {
     color: rgba(8, 7, 7, 0.195);
 }
 
-
+/* 
+图片设置 */
 .l-tree {
     position: absolute;
     margin-top: -38%;
